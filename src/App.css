@@ -34,9 +34,21 @@ main {
   background-color: aquamarine;
 }
 
+.contents {
+  width: 50%;
+  background-color: dimgrey;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-template-rows: 200px 200px;
+}
+
 .content {
-  width: 100px;
-  height: 100px;
+  
   background-color: lightyellow;
   border: 1px solid black;
 
