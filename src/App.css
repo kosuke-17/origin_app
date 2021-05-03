@@ -1,10 +1,51 @@
-.App {
-  text-align: center;
+.head {
+  width: 100%;
+  height: 100px;
+  background-color: #61dafb;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.center-head {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-head {
+  width: 200px;
+  height: 80px;
+  background-color: bisque;
+}
+
+.right-head {
+  width: 300px;
+  height: 80px;
+  background-color: darkseagreen;
+}
+
+.list-top {
+  display:flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+main {
+  width: 100%;
+  height: 87vh;
+  background-color: aquamarine;
+}
+
+.content {
+  width: 100px;
+  height: 100px;
+  background-color: lightyellow;
+  border: 1px solid black;
+
+}
+
+footer {
+  height: 20px;
+  text-align: center;
+  background-color: darkgray;
 }
 
 @media (prefers-reduced-motion: no-preference) {

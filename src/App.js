@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <div className="head">
+          <div className="center-head">
+            <div className="left-head"></div>
+            <div className="right-head">
+              <ul className="list-top">
+                <li>プロフィール</li>
+                <li>趣味</li>
+                <li>お問い合わせ</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </header>
+      <main>
+        <div className="contents">
+          <div className="grid-6">
+            <div className="content"></div>
+            <div className="content"></div>
+            <div className="content"></div>
+            <div className="content"></div>
+            <div className="content"></div>
+            <div className="content"></div>
+          </div>
+        </div>
+      </main>
+      <footer>
+      <div class="copyright">Copyright © ORIGIN APP All rights reserved.</div>
+      </footer>
     </div>
   );
 }
