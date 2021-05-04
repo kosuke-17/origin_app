@@ -36,22 +36,24 @@ main {
 
 .contents {
   width: 50%;
+  height: 450px;
+  padding: 40px;
+  margin-left: 25rem;
   background-color: dimgrey;
-  padding: 20px;
+  
+
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 10%;
   grid-template-rows: 200px 200px;
 }
 
 .content {
-  
   background-color: lightyellow;
   border: 1px solid black;
-
 }
 
 footer {

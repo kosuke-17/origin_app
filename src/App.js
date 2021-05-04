@@ -21,8 +21,7 @@ function App() {
         <div className="contents">
           <div className="grid">
             <div className="content">
-              <img src="/Users/tamuratakasuke/original_application/origin_app/public/IMG_0387.JPG" alt="" />
-            </div>
+                IBMと適正体重</div>
             <div className="content"></div>
             <div className="content"></div>
             <div className="content"></div>
